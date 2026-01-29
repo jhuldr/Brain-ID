@@ -1,18 +1,24 @@
 ## <p align="center">[[ECCV 2024] Brain-ID: Learning Contrast-agnostic Anatomical Representations for Brain Imaging](http://arxiv.org/abs/2311.16914)</p>
 
-**<p align="center">Peirong Liu<sup>1</sup>, Oula Puonti<sup>1</sup>, Xiaoling Hu<sup>1</sup>, Daniel C. Alexander<sup>2</sup>, Juan Eugenio Iglesias<sup>1,2,3</sup></p>**
+**<p align="center">Contact: Peirong Liu (peirong[AT]jhu.edu)</sup></p>**
 
 <p align="center">
-<sup>1</sup>Harvard Medical School and Massachusetts General Hospital<br />
-<sup>2</sup>University College London &nbsp;&nbsp; <sup>3</sup>Massachusetts Institute of Technology
+Department of Electrical and Computer Engineering,<br/>
+Data Science and AI Institute,<br/>
+Johns Hopkins University
 </p>
+
+
 
 <p align="center">
   <img src="./assets/showcase.png" alt="drawing", width="850"/>
 </p>
 
 
+
 ## News
+
+[01/29/2026] We leveled up our synthesis to **bidirectional generation and editing** between healthy and diseased anatomy! Check out our new preprint [here](https://arxiv.org/abs/2512.00269) and code [here](https://github.com/jhuldr/USB).
 
 [09/02/2025] We just released a multi-modal foundation model for human brain imaging based on Brain-ID generator. Check out the preprint [here](https://arxiv.org/abs/2509.00549) and code [here](https://github.com/jhuldr/BrainFM).
 
