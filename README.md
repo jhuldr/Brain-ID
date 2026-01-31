@@ -46,7 +46,7 @@ pip install -r requirements.txt
   <img src="./assets/data_gen.png" alt="drawing", width="850"/>
 </p>
 
-Please download Brain-ID pre-trained weights (brain_id_pretrained.pth), and the provided example generation images (as subfolder 'synth') in this [Google Drive folder](https://drive.google.com/drive/folders/1vuNu2dt-YdBCRW1E4gJtUsi0b_BcX6S_?usp=sharing), and move them into the './assets' folder.
+Please download Brain-ID pre-trained weights (brain_id_pretrained.pth), and the provided example generation images (as subfolder 'synth') in this [OneDrive folder](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pliu53_jh_edu/IgDyFxxoVa1yQJ0dcrsOtBesAXNftuL6ZtT91-TZ-McemzE?e=hWyVEf), and move them into the './assets' folder.
 
 ```
 cd /path/to/brain-id
@@ -57,7 +57,7 @@ You could customize your own data generator in `cfgs/test/demo_synth.yaml`. The 
 
 ### Playing with Brain-ID Synthesizer and Feature Extractor
 
-Please download Brain-ID pre-trained weights (brain_id_pretrained.pth), and test images (T1w.nii.gz, FLAIR.nii.gz) in this [Google Drive folder](https://drive.google.com/drive/folders/1vuNu2dt-YdBCRW1E4gJtUsi0b_BcX6S_?usp=sharing), and move them into the './assets' folder.
+Please download Brain-ID pre-trained weights (brain_id_pretrained.pth), and test images (T1w.nii.gz, FLAIR.nii.gz) in this [OneDrive folder](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pliu53_jh_edu/IgDyFxxoVa1yQJ0dcrsOtBesAXNftuL6ZtT91-TZ-McemzE?e=hWyVEf), and move them into the './assets' folder.
 
 Obtain Brain-ID synthesized MP-RAGE & features using the following code:
 ```python3
@@ -128,7 +128,7 @@ sbatch scripts/eval.sh
 The argument `task_recon.yaml` configures the task (anatomy reconstruction) we are evaluating. We provide other task-specific configure files in `cfgs/train/task_seg.yaml` (brain segmentation), `cfgs/train/anat_sr.yaml` (image super-resolution), and `cfgs/train/anat_bf.yaml` (bias field estimation). You could customize your own task by creating your own `.yaml` file.
 
 ## Download 
-- Brain-ID pre-trained weights and test images: [Google Drive](https://drive.google.com/drive/folders/1vuNu2dt-YdBCRW1E4gJtUsi0b_BcX6S_?usp=sharing)
+- Brain-ID pre-trained weights and test images: [OneDrive](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/pliu53_jh_edu/IgDyFxxoVa1yQJ0dcrsOtBesAXNftuL6ZtT91-TZ-McemzE?e=hWyVEf)
 
 - ADNI, ADNI3 and AIBL datasets: Request data from [official website](https://adni.loni.usc.edu/data-samples/access-data/).
 
